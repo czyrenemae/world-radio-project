@@ -1,0 +1,3095 @@
+{
+  "version": 4,
+  "updated": "2026-11-18",
+  "note": "Stations listeners asked for that the public station directory doesn't have ('stations'), frequencies for directory stations whose names have none ('fixes', so they show on the dial), and the most popular stations ('popular', first = strongest: they win their frequency, lead searches, fill new users' presets). Bump 'version' on every change. Check before pushing: python tools/check_streams.py",
+  "popular": [
+    "Love Radio Manila",
+    "Barangay LS 97.1 Manila",
+    "Yes The Best 101.1 Manila",
+    "96.3 Easy Rock - DWRK",
+    "Energy FM Manila",
+    "Brigada News FM Mega Manila",
+    "Monster RX 93.1",
+    "Star FM Manila",
+    "91.5 Win Radio Manila",
+    "MAGIC 89.9",
+    "Mellow 94.7 BFM Manila",
+    "Jam 88.3",
+    "DZRH",
+    "DZMM Radyo Patrol 630",
+    "DWIZ 882",
+    "Radyo Pilipinas 1 (RP1 News)",
+    "702 Dzas",
+    "DWXI 1314 El Shaddai"
+  ],
+  "stations": [
+    {
+      "id": "dzmb-love-radio-manila",
+      "name": "Love Radio Manila",
+      "callsign": "DZMB",
+      "band": "FM",
+      "freq": 90.7,
+      "town": "Manila",
+      "province": "Metro Manila",
+      "url": "https://azura.loveradio.com.ph/listen/love_radio_manila/radio.mp3",
+      "homepage": "https://loveradio.com.ph",
+      "tags": [
+        "opm",
+        "masa",
+        "mbc"
+      ]
+    },
+    {
+      "id": "dwls-barangay-ls-manila",
+      "name": "Barangay LS 97.1 Manila",
+      "callsign": "DWLS",
+      "band": "FM",
+      "freq": 97.1,
+      "town": "Manila",
+      "province": "Metro Manila",
+      "url": "https://stream.zeno.fm/w9urfkscmowuv",
+      "altUrls": [
+        "https://stream.zeno.fm/dphe9050afhvv"
+      ],
+      "tags": [
+        "opm",
+        "masa",
+        "gma"
+      ]
+    },
+    {
+      "id": "dwys-yes-the-best-manila",
+      "name": "Yes The Best 101.1 Manila",
+      "callsign": "DWYS",
+      "band": "FM",
+      "freq": 101.1,
+      "town": "Manila",
+      "province": "Metro Manila",
+      "url": "https://azura.yesfm.com.ph/listen/yes_fm_manila/radio.mp3",
+      "tags": [
+        "opm",
+        "hits",
+        "mbc"
+      ]
+    },
+    {
+      "id": "dwrx-monster-rx-931",
+      "name": "Monster RX 93.1",
+      "callsign": "DWRX",
+      "band": "FM",
+      "freq": 93.1,
+      "town": "Manila",
+      "province": "Metro Manila",
+      "url": "https://in-icecast.eradioportal.com:8443/monsterrrx",
+      "altUrls": [
+        "http://in-icecast.eradioportal.com:8000/monsterrrx"
+      ],
+      "tags": [
+        "top 40",
+        "hits",
+        "english"
+      ]
+    },
+    {
+      "id": "dwjm-jam-883",
+      "name": "Jam 88.3",
+      "callsign": "DWJM",
+      "band": "FM",
+      "freq": 88.3,
+      "town": "Manila",
+      "province": "Metro Manila",
+      "url": "https://ph-icecast-win.eradioportal.com:8443/jam883",
+      "altUrls": [
+        "http://ph-icecast-win.eradioportal.com:8000/jam883"
+      ],
+      "tags": [
+        "alternative",
+        "indie",
+        "english"
+      ]
+    },
+    {
+      "id": "dwxi-1314-el-shaddai",
+      "name": "DWXI 1314 El Shaddai",
+      "callsign": "DWXI",
+      "band": "AM",
+      "freq": 1314,
+      "town": "Paranaque",
+      "province": "Metro Manila",
+      "url": "https://ph-icecast-win.eradioportal.com:8443/dwxi-streaming",
+      "altUrls": [
+        "http://ph-icecast-win.eradioportal.com:8000/dwxi-streaming"
+      ],
+      "tags": [
+        "religious",
+        "catholic",
+        "el shaddai"
+      ]
+    },
+    {
+      "id": "dxbt-monster-bt-davao",
+      "name": "Monster BT 99.5 Davao",
+      "callsign": "DXBT",
+      "band": "FM",
+      "freq": 99.5,
+      "town": "Davao City",
+      "province": "Davao del Sur",
+      "url": "https://ph-icecast-win.eradioportal.com:8443/monsterrx_davao_",
+      "altUrls": [
+        "http://ph-icecast-win.eradioportal.com:8000/monsterrx_davao_"
+      ],
+      "tags": [
+        "top 40",
+        "hits",
+        "english"
+      ]
+    },
+    {
+      "id": "monster-bt-cebu",
+      "name": "Monster BT 105.9 Cebu",
+      "callsign": "",
+      "band": "FM",
+      "freq": 105.9,
+      "town": "Cebu City",
+      "province": "Cebu",
+      "url": "https://ph-icecast-win.eradioportal.com:8443/rxcebu",
+      "altUrls": [
+        "http://ph-icecast-win.eradioportal.com:8000/rxcebu"
+      ],
+      "tags": [
+        "top 40",
+        "hits",
+        "english"
+      ]
+    },
+    {
+      "id": "dyrf-star-fm-iloilo",
+      "name": "Star FM Iloilo 99.5",
+      "callsign": "DYRF",
+      "band": "FM",
+      "freq": 99.5,
+      "town": "Iloilo City",
+      "province": "Iloilo",
+      "url": "https://stream.zeno.fm/t9tm8gm29heuv",
+      "tags": [
+        "opm",
+        "masa",
+        "bombo",
+        "hiligaynon"
+      ]
+    },
+    {
+      "id": "dxfd-star-fm-cotabato",
+      "name": "Star FM Cotabato 93.7",
+      "callsign": "DXFD",
+      "band": "FM",
+      "freq": 93.7,
+      "town": "Cotabato City",
+      "province": "Maguindanao",
+      "url": "https://stream.zeno.fm/hf1yubc29heuv",
+      "tags": [
+        "opm",
+        "masa",
+        "bombo"
+      ]
+    },
+    {
+      "id": "dytr-bohol",
+      "name": "DYTR Bohol 1116",
+      "callsign": "DYTR",
+      "band": "AM",
+      "freq": 1116,
+      "town": "Tagbilaran",
+      "province": "Bohol",
+      "url": "https://stream.zeno.fm/gg1zav3tnywuv",
+      "tags": [
+        "news",
+        "talk",
+        "community",
+        "cebuano"
+      ]
+    },
+    {
+      "id": "beat-fm-bohol",
+      "name": "89.3 Beat FM Bunal",
+      "callsign": "",
+      "band": "FM",
+      "freq": 89.3,
+      "town": "Tubigon",
+      "province": "Bohol",
+      "url": "https://stream.zeno.fm/zmgfqo2sycttv",
+      "tags": [
+        "opm",
+        "masa",
+        "cebuano"
+      ]
+    },
+    {
+      "id": "dyxc-radyo-natin-ormoc",
+      "name": "Radyo Natin Ormoc",
+      "callsign": "DYXC",
+      "band": "FM",
+      "freq": 107.1,
+      "town": "Ormoc",
+      "province": "Leyte",
+      "url": "https://fx.radyonatinfm.com:8000/ormoc",
+      "tags": [
+        "community",
+        "waray",
+        "mbc"
+      ]
+    },
+    {
+      "id": "dycz-brigada-ormoc",
+      "name": "Brigada News FM Ormoc",
+      "callsign": "DYCZ",
+      "band": "FM",
+      "freq": 93.5,
+      "town": "Ormoc",
+      "province": "Leyte",
+      "url": "https://ormocstream.brigadanews.ph/",
+      "altUrls": [
+        "http://18.141.67.248:8070/stream/1/"
+      ],
+      "tags": [
+        "news",
+        "talk",
+        "opm",
+        "waray"
+      ]
+    },
+    {
+      "id": "nice-radio-naval",
+      "name": "Nice Radio 101.7 Naval",
+      "callsign": "",
+      "band": "FM",
+      "freq": 101.7,
+      "town": "Naval",
+      "province": "Biliran",
+      "url": "http://us2.amfmph.com:8872/stream",
+      "tags": [
+        "opm",
+        "masa",
+        "waray"
+      ]
+    },
+    {
+      "id": "dylx-okfm-sogod",
+      "name": "OKFM Sogod 102.1",
+      "callsign": "DYLX",
+      "band": "FM",
+      "freq": 102.1,
+      "town": "Sogod",
+      "province": "Southern Leyte",
+      "url": "https://mercury.reliastream.com/proxy/broadte3?mp=/;",
+      "tags": [
+        "opm",
+        "news",
+        "talk",
+        "cebuano"
+      ]
+    },
+    {
+      "id": "dypa-fmr-borongan",
+      "name": "FMR Borongan 101.7",
+      "callsign": "DYPA",
+      "band": "FM",
+      "freq": 101.7,
+      "town": "Borongan",
+      "province": "Eastern Samar",
+      "url": "http://de3.amfmph.com:8676/stream",
+      "altUrls": [
+        "http://148.72.153.65:9192/stream"
+      ],
+      "relayOf": "FMR Tacloban",
+      "tags": [
+        "opm",
+        "masa",
+        "news",
+        "waray"
+      ]
+    },
+    {
+      "id": "dypc-fmr-calbayog",
+      "name": "FMR Calbayog 88.5",
+      "callsign": "DYPC",
+      "band": "FM",
+      "freq": 88.5,
+      "town": "Calbayog",
+      "province": "Samar",
+      "url": "http://de3.amfmph.com:8676/stream",
+      "altUrls": [
+        "http://148.72.153.65:9192/stream"
+      ],
+      "relayOf": "FMR Tacloban",
+      "tags": [
+        "opm",
+        "masa",
+        "news",
+        "waray"
+      ]
+    },
+    {
+      "id": "dyth-dzrh-tacloban",
+      "name": "DZRH Tacloban 990",
+      "callsign": "DYTH",
+      "band": "AM",
+      "freq": 990,
+      "town": "Tacloban",
+      "province": "Leyte",
+      "url": "https://azura.dzrh.com.ph/listen/dzrh_manila/radio.mp3",
+      "relayOf": "DZRH Manila",
+      "tags": [
+        "news",
+        "talk",
+        "mbc"
+      ]
+    },
+    {
+      "id": "dyow-bombo-roxas",
+      "name": "Bombo Radyo Roxas",
+      "callsign": "DYOW",
+      "band": "AM",
+      "freq": 900,
+      "town": "Roxas City",
+      "province": "Capiz",
+      "url": "https://stream.zeno.fm/49m248n29heuv",
+      "altUrls": [
+        "https://stream.zeno.fm/gngddnapz9duv"
+      ],
+      "tags": [
+        "news",
+        "talk",
+        "hiligaynon"
+      ]
+    },
+    {
+      "id": "dyye-brigada-kabankalan",
+      "name": "Brigada News FM Kabankalan",
+      "callsign": "DYYE",
+      "band": "FM",
+      "freq": 99.7,
+      "town": "Kabankalan",
+      "province": "Negros Occidental",
+      "url": "https://kabankalanstream.brigadanews.ph/",
+      "tags": [
+        "news",
+        "talk",
+        "opm",
+        "hiligaynon"
+      ]
+    },
+    {
+      "id": "dyba-brigada-san-carlos",
+      "name": "Brigada News FM San Carlos",
+      "callsign": "DYBA",
+      "band": "FM",
+      "freq": 89.3,
+      "town": "San Carlos",
+      "province": "Negros Occidental",
+      "url": "https://sancarlosstream.brigadanews.ph/",
+      "tags": [
+        "news",
+        "talk",
+        "opm",
+        "cebuano"
+      ]
+    },
+    {
+      "id": "dyxu-k5-kabankalan",
+      "name": "K5 News FM Kabankalan",
+      "callsign": "DYXU",
+      "band": "FM",
+      "freq": 102.9,
+      "town": "Kabankalan",
+      "province": "Negros Occidental",
+      "url": "http://us1.amfmph.com:8523/stream",
+      "tags": [
+        "news",
+        "talk",
+        "sweet fm",
+        "hiligaynon"
+      ]
+    },
+    {
+      "id": "dyju-k5-sagay",
+      "name": "K5 News FM Sagay",
+      "callsign": "DYJU",
+      "band": "FM",
+      "freq": 89.7,
+      "town": "Sagay",
+      "province": "Negros Occidental",
+      "url": "http://us1.amfmph.com:8587/stream",
+      "tags": [
+        "news",
+        "talk",
+        "sweet fm",
+        "hiligaynon"
+      ]
+    },
+    {
+      "id": "dxqs-home-radio-gensan",
+      "name": "Home Radio GenSan",
+      "callsign": "DXQS",
+      "band": "FM",
+      "freq": 98.3,
+      "town": "General Santos",
+      "province": "South Cotabato",
+      "url": "https://hrgensan.radioca.st/stream",
+      "tags": [
+        "adult contemporary",
+        "opm",
+        "music"
+      ]
+    },
+    {
+      "id": "dzem-inc-radio-954",
+      "name": "INC Radio DZEM 954",
+      "callsign": "DZEM",
+      "band": "AM",
+      "freq": 954,
+      "town": "Quezon City",
+      "province": "Metro Manila",
+      "url": "https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_b60a96e056fc11f084c05f5d0649296b/index.m3u8",
+      "tags": [
+        "religious",
+        "iglesia ni cristo",
+        "news",
+        "visual radio"
+      ]
+    },
+    {
+      "id": "dwam-spirit-fm-batangas",
+      "name": "99.1 Spirit FM Batangas",
+      "callsign": "DWAM",
+      "band": "FM",
+      "freq": 99.1,
+      "town": "Batangas City",
+      "province": "Batangas",
+      "url": "https://stream.zeno.fm/zb2c835zahruv",
+      "tags": [
+        "catholic",
+        "religious",
+        "news",
+        "opm"
+      ]
+    },
+    {
+      "id": "orayt-975-batangas",
+      "name": "O-Rayt Radio 97.5 Batangas",
+      "callsign": "",
+      "band": "FM",
+      "freq": 97.5,
+      "town": "Batangas City",
+      "province": "Batangas",
+      "url": "https://stream.zeno.fm/s20ub6e1zf9uv",
+      "tags": [
+        "opm",
+        "music",
+        "news"
+      ]
+    },
+    {
+      "id": "dzxo-1188-cabanatuan",
+      "name": "DZXO 1188 Cabanatuan",
+      "callsign": "DZXO",
+      "band": "AM",
+      "freq": 1188,
+      "town": "Cabanatuan",
+      "province": "Nueva Ecija",
+      "url": "https://bigsoundfm.com/proxy/dzxotoa/stream",
+      "tags": [
+        "news",
+        "talk",
+        "tagalog"
+      ]
+    },
+    {
+      "id": "dwwg-big-sound-cabanatuan",
+      "name": "Big Sound FM 101.5 Cabanatuan",
+      "callsign": "DWWG",
+      "band": "FM",
+      "freq": 101.5,
+      "town": "Cabanatuan",
+      "province": "Nueva Ecija",
+      "url": "https://bigsoundfm.com/proxy/dwwgtoa/stream",
+      "tags": [
+        "opm",
+        "music",
+        "news"
+      ]
+    },
+    {
+      "id": "dzki-radyo-ronda-iriga",
+      "name": "DZKI Radyo Ronda Iriga",
+      "callsign": "DZKI",
+      "band": "AM",
+      "freq": 1332,
+      "town": "Iriga",
+      "province": "Camarines Sur",
+      "url": "https://dzki-rpnradio.radioca.st/stream",
+      "tags": [
+        "news",
+        "talk",
+        "bikol",
+        "rpn"
+      ]
+    },
+    {
+      "id": "dzgb-729-legazpi",
+      "name": "DZGB 729 Legazpi",
+      "callsign": "DZGB",
+      "band": "AM",
+      "freq": 729,
+      "town": "Legazpi",
+      "province": "Albay",
+      "url": "https://s2.netradiostation.com/proxy/dzgb?mp=/stream",
+      "tags": [
+        "news",
+        "talk",
+        "bikol"
+      ]
+    },
+    {
+      "id": "dwed-brigada-legazpi",
+      "name": "Brigada News FM Legazpi",
+      "callsign": "DWED",
+      "band": "FM",
+      "freq": 91.5,
+      "town": "Legazpi",
+      "province": "Albay",
+      "url": "https://legaspistream.brigadanews.ph/",
+      "tags": [
+        "news",
+        "talk",
+        "opm",
+        "bikol"
+      ]
+    },
+    {
+      "id": "dwaq-good-news-legazpi",
+      "name": "Good News Radio 107.5 Legazpi",
+      "callsign": "DWAQ",
+      "band": "FM",
+      "freq": 107.5,
+      "town": "Legazpi",
+      "province": "Albay",
+      "url": "https://stream.zeno.fm/lc89afoexvxtv",
+      "altUrls": [
+        "https://stream.zeno.fm/ffujhplczsstv"
+      ],
+      "tags": [
+        "catholic",
+        "religious",
+        "ust legazpi",
+        "bikol"
+      ]
+    },
+    {
+      "id": "dwlh-brigada-sorsogon",
+      "name": "Brigada News FM Sorsogon",
+      "callsign": "DWLH",
+      "band": "FM",
+      "freq": 101.5,
+      "town": "Sorsogon City",
+      "province": "Sorsogon",
+      "url": "https://sorsogonstream.brigadanews.ph/",
+      "tags": [
+        "news",
+        "talk",
+        "opm",
+        "bikol"
+      ]
+    }
+  ],
+  "fixes": [
+    {
+      "name": "Abante Radyo",
+      "band": "AM",
+      "freq": 1494,
+      "callsign": "DWSS",
+      "town": "Quezon City",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "ABSFM Maramag",
+      "band": "FM",
+      "freq": 103.1,
+      "callsign": "DXMF",
+      "town": "Maramag",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Adventist World Radio Manila",
+      "band": "FM",
+      "freq": 89.1,
+      "callsign": "DWAV",
+      "town": "Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "Aksyon Radyo Bacolod",
+      "band": "AM",
+      "freq": 684,
+      "callsign": "DYEZ",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Aksyon Radyo Catarman",
+      "band": "AM",
+      "freq": 972,
+      "callsign": "DYSM",
+      "town": "Catarman",
+      "province": "Northern Samar"
+    },
+    {
+      "name": "Aksyon Radyo Catbalogan",
+      "band": "AM",
+      "freq": 1044,
+      "callsign": "DYMS",
+      "town": "Catbalogan",
+      "province": "Samar"
+    },
+    {
+      "name": "Aksyon Radyo Cebu",
+      "band": "AM",
+      "freq": 648,
+      "callsign": "DYRC",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Aksyon Radyo Davao",
+      "band": "AM",
+      "freq": 855,
+      "callsign": "DXGO",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Aksyon Radyo Iloilo",
+      "band": "AM",
+      "freq": 720,
+      "callsign": "DYOK",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "Aksyon Radyo La Union",
+      "band": "AM",
+      "freq": 783,
+      "callsign": "DZNL",
+      "town": "San Fernando",
+      "province": "La Union"
+    },
+    {
+      "name": "Aksyon Radyo Laoag",
+      "band": "AM",
+      "freq": 747,
+      "callsign": "DZJC",
+      "town": "Laoag",
+      "province": "Ilocos Norte"
+    },
+    {
+      "name": "Aksyon Radyo Pangasinan",
+      "band": "AM",
+      "freq": 1161,
+      "callsign": "DWCM",
+      "town": "Dagupan",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Aksyon Radyo Tacloban",
+      "band": "AM",
+      "freq": 819,
+      "callsign": "DYVL",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "Big Sound FM Baguio",
+      "band": "FM",
+      "freq": 95.9,
+      "callsign": "DWBG",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "Big Sound FM Tuguegarao",
+      "band": "FM",
+      "freq": 100.5,
+      "callsign": "DWXY",
+      "town": "Tuguegarao",
+      "province": "Cagayan"
+    },
+    {
+      "name": "Bombo Radyo Bacolod",
+      "band": "AM",
+      "freq": 630,
+      "callsign": "DYWB",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Bombo Radyo Baguio",
+      "band": "AM",
+      "freq": 1035,
+      "callsign": "DZWX",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "Bombo Radyo Butuan",
+      "band": "AM",
+      "freq": 981,
+      "callsign": "DXBR",
+      "town": "Butuan",
+      "province": "Agusan del Norte"
+    },
+    {
+      "name": "Bombo Radyo Cagayan De Oro",
+      "band": "AM",
+      "freq": 729,
+      "callsign": "DXIF",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Bombo Radyo Cauayan",
+      "band": "AM",
+      "freq": 801,
+      "callsign": "DZNC",
+      "town": "Cauayan",
+      "province": "Isabela"
+    },
+    {
+      "name": "Bombo Radyo Cebu",
+      "band": "AM",
+      "freq": 963,
+      "callsign": "DYMF",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Bombo Radyo GenSan",
+      "band": "AM",
+      "freq": 801,
+      "callsign": "DXES",
+      "town": "General Santos",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Bombo Radyo Iloilo",
+      "band": "AM",
+      "freq": 837,
+      "callsign": "DYFM",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "Bombo Radyo Kalibo",
+      "band": "AM",
+      "freq": 1107,
+      "callsign": "DYIN",
+      "town": "Kalibo",
+      "province": "Aklan"
+    },
+    {
+      "name": "Bombo Radyo Koronadal",
+      "band": "AM",
+      "freq": 1026,
+      "callsign": "DXMC",
+      "town": "Koronadal",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Bombo Radyo La Union",
+      "band": "AM",
+      "freq": 720,
+      "callsign": "DZSO",
+      "town": "San Fernando",
+      "province": "La Union"
+    },
+    {
+      "name": "Bombo Radyo Laoag",
+      "band": "AM",
+      "freq": 711,
+      "callsign": "DZVR",
+      "town": "Laoag",
+      "province": "Ilocos Norte"
+    },
+    {
+      "name": "Bombo Radyo Legazpi",
+      "band": "AM",
+      "freq": 927,
+      "callsign": "DZLG",
+      "town": "Legazpi",
+      "province": "Albay"
+    },
+    {
+      "name": "Bombo Radyo Malaybalay",
+      "band": "AM",
+      "freq": 864,
+      "callsign": "DXCB",
+      "town": "Malaybalay",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Bombo Radyo Naga",
+      "band": "AM",
+      "freq": 1044,
+      "callsign": "DZNG",
+      "town": "Naga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "Bombo Radyo Tacloban",
+      "band": "FM",
+      "freq": 95.1,
+      "callsign": "DYTX",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "Bombo Radyo Tuguegarao",
+      "band": "AM",
+      "freq": 891,
+      "callsign": "DZGR",
+      "town": "Tuguegarao",
+      "province": "Cagayan"
+    },
+    {
+      "name": "Bombo Radyo Vigan",
+      "band": "AM",
+      "freq": 603,
+      "callsign": "DZVV",
+      "town": "Vigan",
+      "province": "Ilocos Sur"
+    },
+    {
+      "name": "Brigada News FM Antique",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DYET",
+      "town": "San Jose de Buenavista",
+      "province": "Antique"
+    },
+    {
+      "name": "Brigada News FM Bacolod",
+      "band": "FM",
+      "freq": 103.1,
+      "callsign": "DYMG",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Brigada News FM Batangas",
+      "band": "FM",
+      "freq": 104.7,
+      "callsign": "DWEY",
+      "town": "Batangas City",
+      "province": "Batangas"
+    },
+    {
+      "name": "Brigada News FM Bogo",
+      "band": "FM",
+      "freq": 90.9,
+      "callsign": "DYMM",
+      "town": "Bogo",
+      "province": "Cebu"
+    },
+    {
+      "name": "Brigada News FM Butuan",
+      "band": "FM",
+      "freq": 96.7,
+      "callsign": "DXVA",
+      "town": "Butuan",
+      "province": "Agusan del Norte"
+    },
+    {
+      "name": "Brigada News FM Cagayan de Oro",
+      "band": "FM",
+      "freq": 102.5,
+      "callsign": "DXMM",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Brigada News FM Cauayan",
+      "band": "FM",
+      "freq": 92.9,
+      "callsign": "DWVA",
+      "town": "Cauayan",
+      "province": "Isabela"
+    },
+    {
+      "name": "Brigada News FM Cebu",
+      "band": "FM",
+      "freq": 90.7,
+      "callsign": "DYAC",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Brigada News FM Cotabato",
+      "band": "FM",
+      "freq": 89.3,
+      "callsign": "DXZA",
+      "town": "Cotabato City",
+      "province": "Maguindanao del Norte"
+    },
+    {
+      "name": "Brigada News FM Daet",
+      "band": "FM",
+      "freq": 102.9,
+      "callsign": "DWYD",
+      "town": "Daet",
+      "province": "Camarines Norte"
+    },
+    {
+      "name": "Brigada News FM Davao",
+      "band": "FM",
+      "freq": 93.1,
+      "callsign": "DXAC",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Brigada News FM Dipolog",
+      "band": "FM",
+      "freq": 107.7,
+      "callsign": "DXIO",
+      "town": "Dipolog",
+      "province": "Zamboanga del Norte"
+    },
+    {
+      "name": "Brigada News FM Dumaguete",
+      "band": "FM",
+      "freq": 89.5,
+      "callsign": "DYBW",
+      "town": "Dumaguete",
+      "province": "Negros Oriental"
+    },
+    {
+      "name": "Brigada News FM Gensan",
+      "band": "FM",
+      "freq": 89.5,
+      "callsign": "DXYM",
+      "town": "General Santos",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Brigada News FM Iligan",
+      "band": "FM",
+      "freq": 95.1,
+      "callsign": "DXZD",
+      "town": "Iligan",
+      "province": "Lanao del Norte"
+    },
+    {
+      "name": "Brigada News FM Kalibo",
+      "band": "FM",
+      "freq": 89.3,
+      "callsign": "DYYQ",
+      "town": "Kalibo",
+      "province": "Aklan"
+    },
+    {
+      "name": "Brigada News FM Koronadal",
+      "band": "FM",
+      "freq": 95.7,
+      "callsign": "DXCE",
+      "town": "Koronadal",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Brigada News FM Lucena",
+      "band": "FM",
+      "freq": 92.7,
+      "callsign": "DWKL",
+      "town": "Lucena",
+      "province": "Quezon"
+    },
+    {
+      "name": "Brigada News FM Mega Manila",
+      "band": "FM",
+      "freq": 105.1,
+      "callsign": "DWBM",
+      "town": "Metro Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "Brigada News FM Naga",
+      "band": "FM",
+      "freq": 103.1,
+      "callsign": "DWKM",
+      "town": "Naga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "Brigada News FM Olongapo",
+      "band": "FM",
+      "freq": 93.5,
+      "callsign": "DWTY",
+      "town": "Olongapo",
+      "province": "Zambales"
+    },
+    {
+      "name": "Brigada News FM Oroquieta",
+      "band": "FM",
+      "freq": 95.3,
+      "callsign": "DXBK",
+      "town": "Oroquieta",
+      "province": "Misamis Occidental"
+    },
+    {
+      "name": "Brigada News FM Pagadian",
+      "band": "FM",
+      "freq": 105.7,
+      "callsign": "DXVV",
+      "town": "Pagadian",
+      "province": "Zamboanga del Sur"
+    },
+    {
+      "name": "Brigada News FM Palawan",
+      "band": "FM",
+      "freq": 103.1,
+      "callsign": "DWYO",
+      "town": "Puerto Princesa",
+      "province": "Palawan"
+    },
+    {
+      "name": "Brigada News FM Roxas",
+      "band": "FM",
+      "freq": 95.7,
+      "callsign": "DYYB",
+      "town": "Roxas City",
+      "province": "Capiz"
+    },
+    {
+      "name": "Brigada News FM Siargao",
+      "band": "FM",
+      "freq": 90.5,
+      "callsign": "",
+      "town": "Dapa",
+      "province": "Surigao del Norte"
+    },
+    {
+      "name": "Brigada News FM Tagum",
+      "band": "FM",
+      "freq": 97.5,
+      "callsign": "DXBY",
+      "town": "Tagum",
+      "province": "Davao del Norte"
+    },
+    {
+      "name": "Brigada News FM Toledo",
+      "band": "FM",
+      "freq": 88.5,
+      "callsign": "DYBD",
+      "town": "Toledo",
+      "province": "Cebu"
+    },
+    {
+      "name": "Brigada News FM Trento",
+      "band": "FM",
+      "freq": 105.5,
+      "callsign": "DXYD",
+      "town": "Trento",
+      "province": "Agusan del Sur"
+    },
+    {
+      "name": "Brigada News FM Valencia",
+      "band": "FM",
+      "freq": 105.7,
+      "callsign": "DXBX",
+      "town": "Valencia",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Brigada News FM Zamboanga",
+      "band": "FM",
+      "freq": 89.9,
+      "callsign": "DXZB",
+      "town": "Zamboanga City",
+      "province": "Zamboanga del Sur"
+    },
+    {
+      "name": "CityRadio / DZCY",
+      "band": "FM",
+      "freq": 93.5,
+      "callsign": "DZCY",
+      "town": "Cavite City",
+      "province": "Cavite"
+    },
+    {
+      "name": "Dear FM Kabacan",
+      "band": "FM",
+      "freq": 89.7,
+      "callsign": "DXGQ",
+      "town": "Kabacan",
+      "province": "Cotabato"
+    },
+    {
+      "name": "Dream Radio Tacloban",
+      "band": "FM",
+      "freq": 104.7,
+      "callsign": "DYAB",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "DWYG LiPS 106 FM",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DWYG",
+      "town": "Imus",
+      "province": "Cavite"
+    },
+    {
+      "name": "DXGT RADYO ABANTE",
+      "band": "FM",
+      "freq": 92.1,
+      "callsign": "DXGT",
+      "town": "Maramag",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "DXKI Strong Radio Cagayan de Oro",
+      "band": "FM",
+      "freq": 90.3,
+      "callsign": "DXKI",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "DXUM DAVAO",
+      "band": "AM",
+      "freq": 819,
+      "callsign": "DXUM",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "DYHP RMN CEBU",
+      "band": "AM",
+      "freq": 612,
+      "callsign": "DYHP",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "DYRD Bohol Worldwide",
+      "band": "AM",
+      "freq": 1161,
+      "callsign": "DYRD",
+      "town": "Tagbilaran",
+      "province": "Bohol"
+    },
+    {
+      "name": "DZBR Bible Radio",
+      "band": "AM",
+      "freq": 531,
+      "callsign": "DZBR",
+      "town": "Tanauan",
+      "province": "Batangas"
+    },
+    {
+      "name": "DZRH",
+      "band": "AM",
+      "freq": 666,
+      "callsign": "DZRH",
+      "town": "Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "DZRH News FM GenSan",
+      "band": "FM",
+      "freq": 94.3,
+      "callsign": "DXTS",
+      "town": "General Santos",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "DZRJ-AM",
+      "band": "AM",
+      "freq": 810,
+      "callsign": "DZRJ",
+      "town": "Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "Easy Rock Bacolod",
+      "band": "FM",
+      "freq": 105.5,
+      "callsign": "DYMY",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Easy Rock Baguio",
+      "band": "FM",
+      "freq": 91.9,
+      "callsign": "DZYS",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "Easy Rock Boracay",
+      "band": "FM",
+      "freq": 93.5,
+      "callsign": "DYEY",
+      "town": "Boracay",
+      "province": "Aklan"
+    },
+    {
+      "name": "Easy Rock Cagayan De Oro",
+      "band": "FM",
+      "freq": 96.9,
+      "callsign": "DXKS",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Easy Rock Cebu",
+      "band": "FM",
+      "freq": 102.7,
+      "callsign": "DYES",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Easy Rock Davao",
+      "band": "FM",
+      "freq": 105.1,
+      "callsign": "DXYS",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Easy Rock Iloilo",
+      "band": "FM",
+      "freq": 92.3,
+      "callsign": "DYYS",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "Energy FM Balamban Cebu",
+      "band": "FM",
+      "freq": 91.3,
+      "callsign": "",
+      "town": "Balamban",
+      "province": "Cebu"
+    },
+    {
+      "name": "Energy FM Cebu",
+      "band": "FM",
+      "freq": 94.7,
+      "callsign": "DYLL",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Energy FM Dagupan",
+      "band": "FM",
+      "freq": 90.3,
+      "callsign": "DWKT",
+      "town": "Dagupan",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Energy FM Davao",
+      "band": "FM",
+      "freq": 88.3,
+      "callsign": "DXDR",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Energy FM Dipolog",
+      "band": "FM",
+      "freq": 103.7,
+      "callsign": "DXLJ",
+      "town": "Dipolog",
+      "province": "Zamboanga del Norte"
+    },
+    {
+      "name": "Energy FM Manila",
+      "band": "FM",
+      "freq": 106.7,
+      "callsign": "DWET",
+      "town": "Metro Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "Energy FM Naga",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DWBQ",
+      "town": "Naga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "FM Radio Butuan",
+      "band": "FM",
+      "freq": 101.5,
+      "callsign": "DXBO",
+      "town": "Butuan",
+      "province": "Agusan del Norte"
+    },
+    {
+      "name": "FM Radio Camiguin",
+      "band": "FM",
+      "freq": 98.3,
+      "callsign": "",
+      "town": "Mambajao",
+      "province": "Camiguin"
+    },
+    {
+      "name": "FM Radio Cebu",
+      "band": "FM",
+      "freq": 93.1,
+      "callsign": "DYWF",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "FM Radio Manila",
+      "band": "FM",
+      "freq": 92.3,
+      "callsign": "DWFM",
+      "town": "Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "FM Radio Tacloban",
+      "band": "FM",
+      "freq": 100.7,
+      "callsign": "DYDR",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "FMR Baguio",
+      "band": "FM",
+      "freq": 102.3,
+      "callsign": "DZYB",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "FMR Davao",
+      "band": "FM",
+      "freq": 101.9,
+      "callsign": "DXFM",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "FMR Tacloban",
+      "band": "FM",
+      "freq": 100.7,
+      "callsign": "DYDR",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "Home Radio Cagayan de Oro",
+      "band": "FM",
+      "freq": 93.5,
+      "callsign": "DXQR",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Home Radio Davao",
+      "band": "FM",
+      "freq": 98.7,
+      "callsign": "DXQM",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Home Radio Iloilo",
+      "band": "FM",
+      "freq": 89.5,
+      "callsign": "DYQN",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "Home Radio Legazpi",
+      "band": "FM",
+      "freq": 92.3,
+      "callsign": "DWQA",
+      "town": "Legazpi",
+      "province": "Albay"
+    },
+    {
+      "name": "Home Radio Naga",
+      "band": "FM",
+      "freq": 95.1,
+      "callsign": "DWQJ",
+      "town": "Naga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "Home Radio Palawan",
+      "band": "FM",
+      "freq": 94.3,
+      "callsign": "DWAN",
+      "town": "Puerto Princesa",
+      "province": "Palawan"
+    },
+    {
+      "name": "iFM Baguio",
+      "band": "FM",
+      "freq": 103.9,
+      "callsign": "DWHB",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "iFM Dagupan",
+      "band": "FM",
+      "freq": 104.7,
+      "callsign": "DWON",
+      "town": "Dagupan",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "iFM Davao",
+      "band": "FM",
+      "freq": 93.9,
+      "callsign": "DXXL",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "iFM Iloilo",
+      "band": "FM",
+      "freq": 95.1,
+      "callsign": "DYIC",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "iFM Laoag",
+      "band": "FM",
+      "freq": 99.5,
+      "callsign": "DWHP",
+      "town": "Laoag",
+      "province": "Ilocos Norte"
+    },
+    {
+      "name": "iFM Lucena",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DWHU",
+      "town": "Lucena",
+      "province": "Quezon"
+    },
+    {
+      "name": "iFM Roxas",
+      "band": "FM",
+      "freq": 93.9,
+      "callsign": "DYVR",
+      "town": "Roxas City",
+      "province": "Capiz"
+    },
+    {
+      "name": "iFM Tacloban",
+      "band": "FM",
+      "freq": 99.1,
+      "callsign": "DYXY",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "Joy FM Davao Oriental",
+      "band": "FM",
+      "freq": 105.7,
+      "callsign": "",
+      "town": "Caraga",
+      "province": "Davao Oriental"
+    },
+    {
+      "name": "K5 News FM Antique",
+      "band": "FM",
+      "freq": 95.7,
+      "callsign": "DYBZ",
+      "town": "San Jose de Buenavista",
+      "province": "Antique"
+    },
+    {
+      "name": "K5 News FM Bacolod",
+      "band": "FM",
+      "freq": 101.5,
+      "callsign": "DYPK",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "K5 News FM Capiz",
+      "band": "FM",
+      "freq": 100.9,
+      "callsign": "DYHG",
+      "town": "Roxas City",
+      "province": "Capiz"
+    },
+    {
+      "name": "K5 News FM Dumaguete",
+      "band": "FM",
+      "freq": 97.7,
+      "callsign": "DWFH",
+      "town": "Dumaguete",
+      "province": "Negros Oriental"
+    },
+    {
+      "name": "K5 News FM Guihulngan",
+      "band": "FM",
+      "freq": 87.9,
+      "callsign": "",
+      "town": "Guihulngan",
+      "province": "Negros Oriental"
+    },
+    {
+      "name": "K5 News FM Iloilo",
+      "band": "FM",
+      "freq": 88.7,
+      "callsign": "DYKU",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "K5 News FM San Carlos",
+      "band": "FM",
+      "freq": 95.7,
+      "callsign": "DYGM",
+      "town": "San Carlos",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "K5 News FM Siaton",
+      "band": "FM",
+      "freq": 94.5,
+      "callsign": "DYSW",
+      "town": "Siaton",
+      "province": "Negros Oriental"
+    },
+    {
+      "name": "K5 News FM Tacloban",
+      "band": "FM",
+      "freq": 103.1,
+      "callsign": "DYTG",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "Kiss FM Bohol",
+      "band": "FM",
+      "freq": 102.3,
+      "callsign": "DYRD",
+      "town": "Tagbilaran",
+      "province": "Bohol"
+    },
+    {
+      "name": "Love Radio Bacolod",
+      "band": "FM",
+      "freq": 91.9,
+      "callsign": "DYKS",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Love Radio Baguio",
+      "band": "FM",
+      "freq": 95.1,
+      "callsign": "DWMB",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "Love Radio Butuan",
+      "band": "FM",
+      "freq": 95.1,
+      "callsign": "DXMB",
+      "town": "Butuan",
+      "province": "Agusan del Norte"
+    },
+    {
+      "name": "Love Radio Catarman",
+      "band": "FM",
+      "freq": 94.1,
+      "callsign": "DYLC",
+      "town": "Catarman",
+      "province": "Northern Samar"
+    },
+    {
+      "name": "Love Radio Cebu",
+      "band": "FM",
+      "freq": 97.9,
+      "callsign": "DYBU",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Love Radio Daet",
+      "band": "FM",
+      "freq": 95.3,
+      "callsign": "DWKS",
+      "town": "Daet",
+      "province": "Camarines Norte"
+    },
+    {
+      "name": "Love Radio Dagupan",
+      "band": "FM",
+      "freq": 98.3,
+      "callsign": "DWID",
+      "town": "Dagupan",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Love Radio Davao",
+      "band": "FM",
+      "freq": 90.7,
+      "callsign": "DXBM",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Love Radio Gensan",
+      "band": "FM",
+      "freq": 101.5,
+      "callsign": "DXWK",
+      "town": "General Santos",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Love Radio Iloilo",
+      "band": "FM",
+      "freq": 97.5,
+      "callsign": "DYMB",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "Love Radio Kalibo",
+      "band": "FM",
+      "freq": 100.1,
+      "callsign": "DYSM",
+      "town": "Kalibo",
+      "province": "Aklan"
+    },
+    {
+      "name": "Love Radio Koronadal",
+      "band": "FM",
+      "freq": 100.1,
+      "callsign": "DXME",
+      "town": "Koronadal",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Love Radio La Union",
+      "band": "FM",
+      "freq": 101.7,
+      "callsign": "DWST",
+      "town": "San Fernando",
+      "province": "La Union"
+    },
+    {
+      "name": "Love Radio Laoag",
+      "band": "FM",
+      "freq": 90.7,
+      "callsign": "DWIL",
+      "town": "Laoag",
+      "province": "Ilocos Norte"
+    },
+    {
+      "name": "Love Radio Legazpi",
+      "band": "FM",
+      "freq": 99.5,
+      "callsign": "DWCM",
+      "town": "Legazpi",
+      "province": "Albay"
+    },
+    {
+      "name": "Love Radio Lucena",
+      "band": "FM",
+      "freq": 100.7,
+      "callsign": "DWLW",
+      "town": "Lucena",
+      "province": "Quezon"
+    },
+    {
+      "name": "Love Radio Malaybalay",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DXIQ",
+      "town": "Malaybalay",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Love Radio Naga",
+      "band": "FM",
+      "freq": 99.1,
+      "callsign": "DWYN",
+      "town": "Naga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "Love Radio Palawan",
+      "band": "FM",
+      "freq": 98.3,
+      "callsign": "DYEZ",
+      "town": "Puerto Princesa",
+      "province": "Palawan"
+    },
+    {
+      "name": "Love Radio Roxas",
+      "band": "FM",
+      "freq": 105.7,
+      "callsign": "DYML",
+      "town": "Roxas City",
+      "province": "Capiz"
+    },
+    {
+      "name": "Love Radio Santiago",
+      "band": "FM",
+      "freq": 94.5,
+      "callsign": "DWIP",
+      "town": "Santiago",
+      "province": "Isabela"
+    },
+    {
+      "name": "Love Radio Tacloban",
+      "band": "FM",
+      "freq": 91.1,
+      "callsign": "DYTM",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "Love Radio Tarlac",
+      "band": "FM",
+      "freq": 97.7,
+      "callsign": "DZLT",
+      "town": "Tarlac City",
+      "province": "Tarlac"
+    },
+    {
+      "name": "Love Radio Tuguegarao",
+      "band": "FM",
+      "freq": 94.1,
+      "callsign": "DWMN",
+      "town": "Tuguegarao",
+      "province": "Cagayan"
+    },
+    {
+      "name": "Love Radio Zamboanga",
+      "band": "FM",
+      "freq": 97.9,
+      "callsign": "DXCM",
+      "town": "Zamboanga City",
+      "province": "Zamboanga del Sur"
+    },
+    {
+      "name": "Lucky Radio Bayugan City",
+      "band": "FM",
+      "freq": 94.9,
+      "callsign": "",
+      "town": "Bayugan",
+      "province": "Agusan del Sur"
+    },
+    {
+      "name": "Magik FM Butuan",
+      "band": "FM",
+      "freq": 97.5,
+      "callsign": "DXMK",
+      "town": "Butuan",
+      "province": "Agusan del Norte"
+    },
+    {
+      "name": "Magik FM Cauayan",
+      "band": "FM",
+      "freq": 90.5,
+      "callsign": "DWIX",
+      "town": "Cauayan",
+      "province": "Isabela"
+    },
+    {
+      "name": "Magik FM Dipolog",
+      "band": "FM",
+      "freq": 90.9,
+      "callsign": "DXKW",
+      "town": "Dipolog",
+      "province": "Zamboanga del Norte"
+    },
+    {
+      "name": "Magik FM Laoag",
+      "band": "FM",
+      "freq": 92.3,
+      "callsign": "DWCK",
+      "town": "Laoag",
+      "province": "Ilocos Norte"
+    },
+    {
+      "name": "Magik FM Lucena",
+      "band": "FM",
+      "freq": 90.3,
+      "callsign": "DWMZ",
+      "town": "Lucena",
+      "province": "Quezon"
+    },
+    {
+      "name": "Magik FM Tacloban",
+      "band": "FM",
+      "freq": 98.3,
+      "callsign": "DYXV",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "Magik FM Tuguegarao",
+      "band": "FM",
+      "freq": 91.7,
+      "callsign": "DWCN",
+      "town": "Tuguegarao",
+      "province": "Cagayan"
+    },
+    {
+      "name": "Magik FM Vigan",
+      "band": "FM",
+      "freq": 94.1,
+      "callsign": "DWVN",
+      "town": "Vigan",
+      "province": "Ilocos Sur"
+    },
+    {
+      "name": "Marino News FM Zamboanga",
+      "band": "FM",
+      "freq": 106.7,
+      "callsign": "DXCP",
+      "town": "Zamboanga City",
+      "province": "Zamboanga del Sur"
+    },
+    {
+      "name": "MRGV FM",
+      "band": "FM",
+      "freq": 89.3,
+      "callsign": "",
+      "town": "Tubigon",
+      "province": "Bohol"
+    },
+    {
+      "name": "MY965FM",
+      "band": "FM",
+      "freq": 96.5,
+      "callsign": "",
+      "town": "Pinamungajan",
+      "province": "Cebu"
+    },
+    {
+      "name": "OK-FM Legazpi",
+      "band": "FM",
+      "freq": 97.1,
+      "callsign": "DWGB",
+      "town": "Legazpi",
+      "province": "Albay"
+    },
+    {
+      "name": "OK-FM Sorsogon",
+      "band": "FM",
+      "freq": 89.5,
+      "callsign": "DWJX",
+      "town": "Sorsogon City",
+      "province": "Sorsogon"
+    },
+    {
+      "name": "One FM Baler",
+      "band": "FM",
+      "freq": 99.3,
+      "callsign": "DWBV",
+      "town": "Baler",
+      "province": "Aurora"
+    },
+    {
+      "name": "Palawan Wave FM",
+      "band": "FM",
+      "freq": 91.9,
+      "callsign": "DZRT",
+      "town": "Puerto Princesa",
+      "province": "Palawan"
+    },
+    {
+      "name": "Radyo Bandera Malaybalay",
+      "band": "FM",
+      "freq": 89.7,
+      "callsign": "DXNL",
+      "town": "Malaybalay",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Radyo Bandera Olongapo",
+      "band": "FM",
+      "freq": 107.1,
+      "callsign": "DWFJ",
+      "town": "Olongapo",
+      "province": "Zambales"
+    },
+    {
+      "name": "Radyo Bandera Puerto Princesa Palawan",
+      "band": "FM",
+      "freq": 89.5,
+      "callsign": "DZPA",
+      "town": "Puerto Princesa",
+      "province": "Palawan"
+    },
+    {
+      "name": "Radyo Bandera Trento",
+      "band": "FM",
+      "freq": 94.5,
+      "callsign": "DXEG",
+      "town": "Trento",
+      "province": "Agusan del Sur"
+    },
+    {
+      "name": "Radyo Bandera Valencia",
+      "band": "FM",
+      "freq": 102.5,
+      "callsign": "DXFF",
+      "town": "Valencia",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Radyo Natin Agoo",
+      "band": "FM",
+      "freq": 106.7,
+      "callsign": "DWIS",
+      "town": "Agoo",
+      "province": "La Union"
+    },
+    {
+      "name": "Radyo Natin Alaminos",
+      "band": "FM",
+      "freq": 100.1,
+      "callsign": "DWSF",
+      "town": "Alaminos",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Radyo Natin Argao",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DYRW",
+      "town": "Argao",
+      "province": "Cebu"
+    },
+    {
+      "name": "Radyo Natin Baao",
+      "band": "FM",
+      "freq": 88.7,
+      "callsign": "DWPJ",
+      "town": "Baao",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "Radyo Natin Baler",
+      "band": "FM",
+      "freq": 88.5,
+      "callsign": "DWLN",
+      "town": "Baler",
+      "province": "Aurora"
+    },
+    {
+      "name": "Radyo Natin Bangued",
+      "band": "FM",
+      "freq": 95.3,
+      "callsign": "DWGF",
+      "town": "Bangued",
+      "province": "Abra"
+    },
+    {
+      "name": "Radyo Natin Bayombong",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DWGL",
+      "town": "Bayombong",
+      "province": "Nueva Vizcaya"
+    },
+    {
+      "name": "Radyo Natin Bislig",
+      "band": "FM",
+      "freq": 91.1,
+      "callsign": "DXSW",
+      "town": "Bislig",
+      "province": "Surigao del Sur"
+    },
+    {
+      "name": "Radyo Natin Boac",
+      "band": "FM",
+      "freq": 105.7,
+      "callsign": "DZVH",
+      "town": "Boac",
+      "province": "Marinduque"
+    },
+    {
+      "name": "Radyo Natin Bongabong",
+      "band": "FM",
+      "freq": 103.7,
+      "callsign": "DWMH",
+      "town": "Bongabong",
+      "province": "Oriental Mindoro"
+    },
+    {
+      "name": "Radyo Natin BonPen",
+      "band": "FM",
+      "freq": 102.5,
+      "callsign": "DZVB",
+      "town": "Catanauan",
+      "province": "Quezon"
+    },
+    {
+      "name": "Radyo Natin Borongan",
+      "band": "FM",
+      "freq": 104.1,
+      "callsign": "DYSD",
+      "town": "Borongan",
+      "province": "Eastern Samar"
+    },
+    {
+      "name": "Radyo Natin Brooke's Point",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DWMI",
+      "town": "Brooke's Point",
+      "province": "Palawan"
+    },
+    {
+      "name": "Radyo Natin Bugasong",
+      "band": "FM",
+      "freq": 102.9,
+      "callsign": "DYCT",
+      "town": "Bugasong",
+      "province": "Antique"
+    },
+    {
+      "name": "Radyo Natin Calapan",
+      "band": "FM",
+      "freq": 96.9,
+      "callsign": "DWCA",
+      "town": "Calapan",
+      "province": "Oriental Mindoro"
+    },
+    {
+      "name": "Radyo Natin Calbayog",
+      "band": "FM",
+      "freq": 104.9,
+      "callsign": "DYSI",
+      "town": "Calbayog",
+      "province": "Samar"
+    },
+    {
+      "name": "Radyo Natin Caluag",
+      "band": "FM",
+      "freq": 100.9,
+      "callsign": "DWRL",
+      "town": "Calauag",
+      "province": "Quezon"
+    },
+    {
+      "name": "Radyo Natin Candon",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DWRE",
+      "town": "Candon",
+      "province": "Ilocos Sur"
+    },
+    {
+      "name": "Radyo Natin CDO",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DXHY",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Radyo Natin Coron",
+      "band": "FM",
+      "freq": 100.5,
+      "callsign": "DWRZ",
+      "town": "Coron",
+      "province": "Palawan"
+    },
+    {
+      "name": "Radyo Natin Cotabato",
+      "band": "FM",
+      "freq": 95.9,
+      "callsign": "DXTC",
+      "town": "Cotabato City",
+      "province": "Maguindanao del Norte"
+    },
+    {
+      "name": "Radyo Natin Dipolog",
+      "band": "FM",
+      "freq": 100.5,
+      "callsign": "DXBD",
+      "town": "Dipolog",
+      "province": "Zamboanga del Norte"
+    },
+    {
+      "name": "Radyo Natin Guiuan",
+      "band": "FM",
+      "freq": 103.7,
+      "callsign": "DYSG",
+      "town": "Guiuan",
+      "province": "Eastern Samar"
+    },
+    {
+      "name": "Radyo Natin Gumaca",
+      "band": "FM",
+      "freq": 107.9,
+      "callsign": "DWGR",
+      "town": "Gumaca",
+      "province": "Quezon"
+    },
+    {
+      "name": "Radyo Natin Hamtic",
+      "band": "FM",
+      "freq": 106.9,
+      "callsign": "DYHL",
+      "town": "Hamtic",
+      "province": "Antique"
+    },
+    {
+      "name": "Radyo Natin Iba",
+      "band": "FM",
+      "freq": 105.7,
+      "callsign": "DWRQ",
+      "town": "Iba",
+      "province": "Zambales"
+    },
+    {
+      "name": "Radyo Natin Infanta",
+      "band": "FM",
+      "freq": 105.3,
+      "callsign": "DWRI",
+      "town": "Infanta",
+      "province": "Quezon"
+    },
+    {
+      "name": "Radyo Natin Iriga",
+      "band": "FM",
+      "freq": 107.1,
+      "callsign": "DWIR",
+      "town": "Iriga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "Radyo Natin Isulan",
+      "band": "FM",
+      "freq": 101.3,
+      "callsign": "DXSD",
+      "town": "Isulan",
+      "province": "Sultan Kudarat"
+    },
+    {
+      "name": "Radyo Natin Jagna",
+      "band": "FM",
+      "freq": 98.1,
+      "callsign": "DYNJ",
+      "town": "Jagna",
+      "province": "Bohol"
+    },
+    {
+      "name": "Radyo Natin Kiamba",
+      "band": "FM",
+      "freq": 101.3,
+      "callsign": "DXSG",
+      "town": "Kiamba",
+      "province": "Sarangani"
+    },
+    {
+      "name": "Radyo Natin Kidapawan",
+      "band": "FM",
+      "freq": 107.1,
+      "callsign": "DXYY",
+      "town": "Kidapawan",
+      "province": "Cotabato"
+    },
+    {
+      "name": "Radyo Natin Laguna",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DZVA",
+      "town": "Calamba",
+      "province": "Laguna"
+    },
+    {
+      "name": "Radyo Natin Laoang",
+      "band": "FM",
+      "freq": 90.9,
+      "callsign": "DYRN",
+      "town": "Laoang",
+      "province": "Northern Samar"
+    },
+    {
+      "name": "Radyo Natin Lebak",
+      "band": "FM",
+      "freq": 105.1,
+      "callsign": "DXLR",
+      "town": "Lebak",
+      "province": "Sultan Kudarat"
+    },
+    {
+      "name": "Radyo Natin Lemery",
+      "band": "FM",
+      "freq": 102.3,
+      "callsign": "DWLC",
+      "town": "Lemery",
+      "province": "Batangas"
+    },
+    {
+      "name": "Radyo Natin Looc",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DWMM",
+      "town": "Looc",
+      "province": "Romblon"
+    },
+    {
+      "name": "Radyo Natin Lucban",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DWRH",
+      "town": "Lucban",
+      "province": "Quezon"
+    },
+    {
+      "name": "Radyo Natin Lupon",
+      "band": "FM",
+      "freq": 105.3,
+      "callsign": "DXSC",
+      "town": "Lupon",
+      "province": "Davao Oriental"
+    },
+    {
+      "name": "Radyo Natin Madridejos",
+      "band": "FM",
+      "freq": 102.9,
+      "callsign": "DYEE",
+      "town": "Madridejos",
+      "province": "Cebu"
+    },
+    {
+      "name": "Radyo Natin Malita",
+      "band": "FM",
+      "freq": 105.5,
+      "callsign": "DXSA",
+      "town": "Malita",
+      "province": "Davao Occidental"
+    },
+    {
+      "name": "Radyo Natin Maramag",
+      "band": "FM",
+      "freq": 106.9,
+      "callsign": "DXRO",
+      "town": "Maramag",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Radyo Natin Margosatubig",
+      "band": "FM",
+      "freq": 91.3,
+      "callsign": "DXRH",
+      "town": "Margosatubig",
+      "province": "Zamboanga del Sur"
+    },
+    {
+      "name": "Radyo Natin Masbate",
+      "band": "FM",
+      "freq": 107.1,
+      "callsign": "DYRQ",
+      "town": "Masbate City",
+      "province": "Masbate"
+    },
+    {
+      "name": "Radyo Natin Mati",
+      "band": "FM",
+      "freq": 105.3,
+      "callsign": "DXSI",
+      "town": "Mati",
+      "province": "Davao Oriental"
+    },
+    {
+      "name": "Radyo Natin Moalboal",
+      "band": "FM",
+      "freq": 102.5,
+      "callsign": "DYRH",
+      "town": "Moalboal",
+      "province": "Cebu"
+    },
+    {
+      "name": "Radyo Natin Nabunturan",
+      "band": "FM",
+      "freq": 104.7,
+      "callsign": "DXWH",
+      "town": "Nabunturan",
+      "province": "Davao de Oro"
+    },
+    {
+      "name": "Radyo Natin Naga",
+      "band": "FM",
+      "freq": 89.5,
+      "callsign": "DZTR",
+      "town": "Naga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "Radyo Natin Odiongan",
+      "band": "FM",
+      "freq": 101.3,
+      "callsign": "DZVG",
+      "town": "Odiongan",
+      "province": "Romblon"
+    },
+    {
+      "name": "Radyo Natin Padre Garcia",
+      "band": "FM",
+      "freq": 105.5,
+      "callsign": "DZVI",
+      "town": "Padre Garcia",
+      "province": "Batangas"
+    },
+    {
+      "name": "Radyo Natin Pagadian",
+      "band": "FM",
+      "freq": 91.9,
+      "callsign": "DXMD",
+      "town": "Pagadian",
+      "province": "Zamboanga del Sur"
+    },
+    {
+      "name": "Radyo Natin Paracale",
+      "band": "FM",
+      "freq": 101.3,
+      "callsign": "DZVN",
+      "town": "Paracale",
+      "province": "Camarines Norte"
+    },
+    {
+      "name": "Radyo Natin Pilar",
+      "band": "FM",
+      "freq": 102.9,
+      "callsign": "DWMP",
+      "town": "Pilar",
+      "province": "Sorsogon"
+    },
+    {
+      "name": "Radyo Natin Pinamungajan",
+      "band": "FM",
+      "freq": 103.9,
+      "callsign": "DYRR",
+      "town": "Pinamungajan",
+      "province": "Cebu"
+    },
+    {
+      "name": "Radyo Natin Roxas (Oriental Mindoro)",
+      "band": "FM",
+      "freq": 98.9,
+      "callsign": "DWOX",
+      "town": "Roxas",
+      "province": "Oriental Mindoro"
+    },
+    {
+      "name": "Radyo Natin Roxas, Palawan",
+      "band": "FM",
+      "freq": 101.3,
+      "callsign": "DWRO",
+      "town": "Roxas",
+      "province": "Palawan"
+    },
+    {
+      "name": "Radyo Natin Sablayan",
+      "band": "FM",
+      "freq": 103.3,
+      "callsign": "DWME",
+      "town": "Sablayan",
+      "province": "Occidental Mindoro"
+    },
+    {
+      "name": "Radyo Natin Sagay",
+      "band": "FM",
+      "freq": 88.3,
+      "callsign": "DYRQ",
+      "town": "Sagay",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Radyo Natin San Jose de Buenavista Antique",
+      "band": "FM",
+      "freq": 91.7,
+      "callsign": "DYRS",
+      "town": "San Jose de Buenavista",
+      "province": "Antique"
+    },
+    {
+      "name": "Radyo Natin San Jose Occ. Mindoro",
+      "band": "FM",
+      "freq": 101.7,
+      "callsign": "DWRM",
+      "town": "San Jose",
+      "province": "Occidental Mindoro"
+    },
+    {
+      "name": "Radyo Natin Santiago",
+      "band": "FM",
+      "freq": 93.7,
+      "callsign": "DWTR",
+      "town": "Santiago",
+      "province": "Isabela"
+    },
+    {
+      "name": "Radyo Natin Sipalay",
+      "band": "FM",
+      "freq": 102.5,
+      "callsign": "DYSY",
+      "town": "Sipalay",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Radyo Natin Sorsogon",
+      "band": "FM",
+      "freq": 91.9,
+      "callsign": "DWSG",
+      "town": "Sorsogon City",
+      "province": "Sorsogon"
+    },
+    {
+      "name": "Radyo Natin Sta. Cruz",
+      "band": "FM",
+      "freq": 104.5,
+      "callsign": "DWMD",
+      "town": "Santa Cruz",
+      "province": "Marinduque"
+    },
+    {
+      "name": "Radyo Natin Sta. Elena",
+      "band": "FM",
+      "freq": 99.3,
+      "callsign": "DZVC",
+      "town": "Santa Elena",
+      "province": "Camarines Norte"
+    },
+    {
+      "name": "Radyo Natin Sto. Tomas",
+      "band": "FM",
+      "freq": 105.3,
+      "callsign": "DXRZ",
+      "town": "Santo Tomas",
+      "province": "Davao del Norte"
+    },
+    {
+      "name": "Radyo Natin Tabuk",
+      "band": "FM",
+      "freq": 103.7,
+      "callsign": "DWMC",
+      "town": "Tabuk",
+      "province": "Kalinga"
+    },
+    {
+      "name": "Radyo Natin Tagum",
+      "band": "FM",
+      "freq": 107.9,
+      "callsign": "DXWG",
+      "town": "Tagum",
+      "province": "Davao del Norte"
+    },
+    {
+      "name": "Radyo Natin Tiwi",
+      "band": "FM",
+      "freq": 104.9,
+      "callsign": "DWRU",
+      "town": "Tiwi",
+      "province": "Albay"
+    },
+    {
+      "name": "Radyo Natin Victoria",
+      "band": "FM",
+      "freq": 102.9,
+      "callsign": "DWMJ",
+      "town": "Victoria",
+      "province": "Oriental Mindoro"
+    },
+    {
+      "name": "Radyo Natin Daanbantayan",
+      "band": "FM",
+      "freq": 101.3,
+      "callsign": "DYRO",
+      "town": "Daanbantayan",
+      "province": "Cebu"
+    },
+    {
+      "name": "Radyo Natin Naval",
+      "band": "FM",
+      "freq": 103.9,
+      "callsign": "DYSF",
+      "town": "Naval",
+      "province": "Biliran"
+    },
+    {
+      "name": "Radyo Pilipinas 1 (RP1 News)",
+      "band": "AM",
+      "freq": 738,
+      "callsign": "DZRB",
+      "town": "Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "Radyo Pilipinas Davao",
+      "band": "FM",
+      "freq": 88.7,
+      "callsign": "DXRP",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Radyo Sincero GenSan",
+      "band": "FM",
+      "freq": 92.5,
+      "callsign": "DXEZ",
+      "town": "General Santos",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Radyo Sincero Valencia",
+      "band": "FM",
+      "freq": 97.7,
+      "callsign": "DXSR",
+      "town": "Valencia",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "RMN Cotabato",
+      "band": "FM",
+      "freq": 90.9,
+      "callsign": "DXMY",
+      "town": "Cotabato City",
+      "province": "Maguindanao del Norte"
+    },
+    {
+      "name": "RMN DXDC Davao",
+      "band": "AM",
+      "freq": 621,
+      "callsign": "DXDC",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "RMN DYHB Bacolod",
+      "band": "AM",
+      "freq": 747,
+      "callsign": "DYHB",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "RMN DYRI Iloilo",
+      "band": "AM",
+      "freq": 774,
+      "callsign": "DYRI",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "RMN Iloilo",
+      "band": "AM",
+      "freq": 774,
+      "callsign": "DYRI",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "RMN Tacloban",
+      "band": "FM",
+      "freq": 99.1,
+      "callsign": "DYXY",
+      "town": "Tacloban",
+      "province": "Leyte"
+    },
+    {
+      "name": "RPN DXDX GenSan",
+      "band": "AM",
+      "freq": 693,
+      "callsign": "DXDX",
+      "town": "General Santos",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "RPN DXKO Cagayan de Oro",
+      "band": "AM",
+      "freq": 1368,
+      "callsign": "DXKO",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "RPN DXKS Surigao",
+      "band": "AM",
+      "freq": 1080,
+      "callsign": "DXKS",
+      "town": "Surigao City",
+      "province": "Surigao del Norte"
+    },
+    {
+      "name": "RPN DYKB Bacolod",
+      "band": "AM",
+      "freq": 1404,
+      "callsign": "DYKB",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "RPN DYKC Cebu",
+      "band": "AM",
+      "freq": 675,
+      "callsign": "DYKC",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "RPN DZBS Baguio",
+      "band": "AM",
+      "freq": 1368,
+      "callsign": "DZBS",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "RPN DZRL Batac",
+      "band": "AM",
+      "freq": 639,
+      "callsign": "DZRL",
+      "town": "Batac",
+      "province": "Ilocos Norte"
+    },
+    {
+      "name": "Spirit FM Calapan",
+      "band": "FM",
+      "freq": 104.1,
+      "callsign": "DZSB",
+      "town": "Calapan",
+      "province": "Oriental Mindoro"
+    },
+    {
+      "name": "Spirit FM Gumaca",
+      "band": "FM",
+      "freq": 91.7,
+      "callsign": "DWDG",
+      "town": "Gumaca",
+      "province": "Quezon"
+    },
+    {
+      "name": "Spirit FM Lucena",
+      "band": "FM",
+      "freq": 103.9,
+      "callsign": "DWVM",
+      "town": "Lucena",
+      "province": "Quezon"
+    },
+    {
+      "name": "Spirit FM Masbate",
+      "band": "FM",
+      "freq": 98.3,
+      "callsign": "DZIM",
+      "town": "Masbate City",
+      "province": "Masbate"
+    },
+    {
+      "name": "Star FM Bacolod",
+      "band": "FM",
+      "freq": 95.9,
+      "callsign": "DYIF",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "Star FM Baguio",
+      "band": "FM",
+      "freq": 89.5,
+      "callsign": "DWIM",
+      "town": "Baguio",
+      "province": "Benguet"
+    },
+    {
+      "name": "Star FM Cebu",
+      "band": "FM",
+      "freq": 95.5,
+      "callsign": "DYMX",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Star FM Dagupan",
+      "band": "FM",
+      "freq": 100.7,
+      "callsign": "DWHY",
+      "town": "Dagupan",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Star FM Davao",
+      "band": "FM",
+      "freq": 96.3,
+      "callsign": "DXFX",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Star FM Dipolog",
+      "band": "FM",
+      "freq": 93.3,
+      "callsign": "DXFB",
+      "town": "Dipolog",
+      "province": "Zamboanga del Norte"
+    },
+    {
+      "name": "Star FM Manila",
+      "band": "FM",
+      "freq": 102.7,
+      "callsign": "DWSM",
+      "town": "Metro Manila",
+      "province": "Metro Manila"
+    },
+    {
+      "name": "Star FM Roxas",
+      "band": "FM",
+      "freq": 103.7,
+      "callsign": "DYRX",
+      "town": "Roxas City",
+      "province": "Capiz"
+    },
+    {
+      "name": "Star FM Zamboanga",
+      "band": "FM",
+      "freq": 93.9,
+      "callsign": "DXCB",
+      "town": "Zamboanga City",
+      "province": "Zamboanga del Sur"
+    },
+    {
+      "name": "STARR Radio Tayasan",
+      "band": "FM",
+      "freq": 98.3,
+      "callsign": "",
+      "town": "Tayasan",
+      "province": "Negros Oriental"
+    },
+    {
+      "name": "Super Radyo DYSS Cebu",
+      "band": "AM",
+      "freq": 999,
+      "callsign": "DYSS",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "TAPS RADIO ALICIA",
+      "band": "FM",
+      "freq": 107.1,
+      "callsign": "DWTO",
+      "town": "Alicia",
+      "province": "Isabela"
+    },
+    {
+      "name": "TAPS RADIO ROXAS",
+      "band": "FM",
+      "freq": 107.9,
+      "callsign": "DWTB",
+      "town": "Roxas",
+      "province": "Isabela"
+    },
+    {
+      "name": "Voice Radio Catarman",
+      "band": "FM",
+      "freq": 105.3,
+      "callsign": "",
+      "town": "Catarman",
+      "province": "Northern Samar"
+    },
+    {
+      "name": "Wild FM Cagayan de Oro",
+      "band": "FM",
+      "freq": 94.3,
+      "callsign": "DXWZ",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Wild FM Davao",
+      "band": "FM",
+      "freq": 92.3,
+      "callsign": "DXWT",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Wild FM Gensan",
+      "band": "FM",
+      "freq": 99.1,
+      "callsign": "DXRT",
+      "town": "General Santos",
+      "province": "South Cotabato"
+    },
+    {
+      "name": "Wild FM Iligan",
+      "band": "FM",
+      "freq": 103.1,
+      "callsign": "DXIL",
+      "town": "Iligan",
+      "province": "Lanao del Norte"
+    },
+    {
+      "name": "Wild FM Iloilo",
+      "band": "FM",
+      "freq": 105.9,
+      "callsign": "DYWT",
+      "town": "Iloilo City",
+      "province": "Iloilo"
+    },
+    {
+      "name": "Wild FM Valencia",
+      "band": "FM",
+      "freq": 92.9,
+      "callsign": "DXWB",
+      "town": "Valencia",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Win Radio Cagayan de Oro",
+      "band": "FM",
+      "freq": 107.9,
+      "callsign": "DXNY",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Win Radio Cebu",
+      "band": "FM",
+      "freq": 107.5,
+      "callsign": "DYNU",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Win Radio Davao",
+      "band": "FM",
+      "freq": 107.5,
+      "callsign": "DXNU",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "Win Radio Naga",
+      "band": "FM",
+      "freq": 107.9,
+      "callsign": "DWMW",
+      "town": "Naga",
+      "province": "Camarines Sur"
+    },
+    {
+      "name": "XFM BACOLOD",
+      "band": "FM",
+      "freq": 103.9,
+      "callsign": "DYQU",
+      "town": "Bacolod",
+      "province": "Negros Occidental"
+    },
+    {
+      "name": "XFM Bayugan",
+      "band": "FM",
+      "freq": 95.7,
+      "callsign": "",
+      "town": "Bayugan",
+      "province": "Agusan del Sur"
+    },
+    {
+      "name": "XFM Cebu",
+      "band": "FM",
+      "freq": 88.3,
+      "callsign": "DYAP",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "XFM Davao City",
+      "band": "FM",
+      "freq": 89.1,
+      "callsign": "DXBE",
+      "town": "Davao City",
+      "province": "Davao del Sur"
+    },
+    {
+      "name": "XFM Palawan",
+      "band": "FM",
+      "freq": 104.7,
+      "callsign": "DWXF",
+      "town": "Puerto Princesa",
+      "province": "Palawan"
+    },
+    {
+      "name": "XFM Santiago",
+      "band": "FM",
+      "freq": 104.9,
+      "callsign": "",
+      "town": "Santiago",
+      "province": "Isabela"
+    },
+    {
+      "name": "XFM Tagum",
+      "band": "FM",
+      "freq": 107.1,
+      "callsign": "",
+      "town": "Tagum",
+      "province": "Davao del Norte"
+    },
+    {
+      "name": "Y101 Cebu",
+      "band": "FM",
+      "freq": 101.1,
+      "callsign": "DYIO",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Y101fm Cebu",
+      "band": "FM",
+      "freq": 101.1,
+      "callsign": "DYIO",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Yes FM Boracay",
+      "band": "FM",
+      "freq": 91.1,
+      "callsign": "DYYR",
+      "town": "Boracay",
+      "province": "Aklan"
+    },
+    {
+      "name": "Yes FM Cauayan",
+      "band": "FM",
+      "freq": 89.7,
+      "callsign": "DWYE",
+      "town": "Cauayan",
+      "province": "Isabela"
+    },
+    {
+      "name": "Yes FM Cebu",
+      "band": "FM",
+      "freq": 91.5,
+      "callsign": "DYHR",
+      "town": "Cebu City",
+      "province": "Cebu"
+    },
+    {
+      "name": "Yes FM Dagupan",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DWHR",
+      "town": "Dagupan",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Yes FM Dumaguete",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DYYD",
+      "town": "Dumaguete",
+      "province": "Negros Oriental"
+    },
+    {
+      "name": "Yes FM Iligan",
+      "band": "FM",
+      "freq": 99.3,
+      "callsign": "DXFE",
+      "town": "Iligan",
+      "province": "Lanao del Norte"
+    },
+    {
+      "name": "Yes FM Urdaneta (mp3)",
+      "band": "FM",
+      "freq": 104.1,
+      "callsign": "DZVM",
+      "town": "Urdaneta",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Yes FM Valencia",
+      "band": "FM",
+      "freq": 104.1,
+      "callsign": "DXAT",
+      "town": "Valencia",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Yes The Best Cagayan de Oro",
+      "band": "FM",
+      "freq": 104.7,
+      "callsign": "DXYR",
+      "town": "Cagayan de Oro",
+      "province": "Misamis Oriental"
+    },
+    {
+      "name": "Yes The Best Cauayan",
+      "band": "FM",
+      "freq": 89.7,
+      "callsign": "DWYE",
+      "town": "Cauayan",
+      "province": "Isabela"
+    },
+    {
+      "name": "Yes The Best Dagupan",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DWHR",
+      "town": "Dagupan",
+      "province": "Pangasinan"
+    },
+    {
+      "name": "Yes The Best Dumaguete",
+      "band": "FM",
+      "freq": 106.3,
+      "callsign": "DYYD",
+      "town": "Dumaguete",
+      "province": "Negros Oriental"
+    },
+    {
+      "name": "Yes The Best Iligan",
+      "band": "FM",
+      "freq": 99.3,
+      "callsign": "DXFE",
+      "town": "Iligan",
+      "province": "Lanao del Norte"
+    },
+    {
+      "name": "Yes The Best Valencia",
+      "band": "FM",
+      "freq": 104.1,
+      "callsign": "DXAT",
+      "town": "Valencia",
+      "province": "Bukidnon"
+    },
+    {
+      "name": "Yes The Best Zamboanga",
+      "band": "FM",
+      "freq": 102.7,
+      "callsign": "DXHT",
+      "town": "Zamboanga City",
+      "province": "Zamboanga del Sur"
+    }
+  ]
+}
